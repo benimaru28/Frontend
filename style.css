@@ -1,0 +1,133 @@
+body{
+    margin:  75px 25vh 35px 25vh;
+    background-color: rgb(227, 227, 245);
+}
+
+.card{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0 70px 75px 70px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 50px;
+}
+
+.right_element a{
+    text-decoration: none;
+    color: gray;
+    padding: 50px;
+}
+.left_element a{
+    text-decoration: none;
+    color: rgb(80, 80, 212);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left_element{
+    float: left;
+}
+
+.right_element{
+    float: right;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25vh;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+}
+div p{
+    color: gray;
+}
+span a{
+    text-decoration: none;
+    color: rgb(80, 80, 212);
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+#views{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+
+
+/*body{
+    margin: 50px 100px 50px 100px;
+    background-color: rgb(210, 210, 223);
+}
+
+.card{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 20px 20px 30vh 40px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+li{
+    display: inline;
+    position: relative;
+}
+
+.left_element{
+    font-size: larger;
+    color: blue;
+    float: left; 
+}
+
+.right_element{
+    text-align: center;
+    float: right;
+    padding-right: 0px;
+}
+
+li a{
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    float: right;
+}
+.container{
+    display: flex;
+}
+
+.main{
+    flex: 1;
+}
+
+h1 span{
+    color: blue;
+}
+button{
+    cursor: pointer;
+}
+#views{
+    color: white;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+#docs{
+    padding: 10px;
+    border-radius: 5px;
+}*/
